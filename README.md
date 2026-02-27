@@ -34,7 +34,7 @@ It uses the Web Speech API for voice recognition and speech synthesis.
  https://github.com/mokshith641/voice-bank-assistant
 
 ##  Author
-Mokshith H C
-Pavan 
-Aadarsh Shetty
-Varun
+- Mokshith H C
+- Pavan 
+- Aadarsh Shetty
+- Varun
