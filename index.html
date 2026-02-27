@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Voice Pay</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+    <h2>Voice Pay</h2>
+    <div id="balanceDisplay" class="balance">₹5000</div>
+</div>
+
+<div class="container">
+
+<button id="mic" class="mic">🎤 Speak</button>
+
+<div class="inputBox">
+<input id="textInput" placeholder="Type command like 'send 2000'">
+<button onclick="handleText()">Send</button>
+</div>
+
+<div class="grid">
+<button class="cardBtn" onclick="manualSend()">💸 Send</button>
+<button class="cardBtn" onclick="manualDeposit()">📥 Deposit</button>
+<button class="cardBtn" onclick="checkBalance()">📊 Balance</button>
+<button class="cardBtn" onclick="toggleHistory()">📜 History</button>
+<button class="cardBtn" onclick="resetAccount()">🔄 Reset</button>
+</div>
+
+<div id="historyPanel" class="historyPanel">
+<h3>Transactions</h3>
+<ul id="transactionList"></ul>
+</div>
+
+<div id="output" class="log"></div>
+
+</div>
+
+<script src="transactions.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
